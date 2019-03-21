@@ -1,0 +1,1117 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+<head>
+	<title>Digiapt</title>
+	<meta charset = "utf-8">
+	<meta name = "viewport" content = "width = device-width, initial-scale = 1">
+	<link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<link rel = "stylesheet" type= "text/css" href = "sidebar.css">
+	<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" ></script>
+	<script src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<style>
+	#contact {
+	  width: 140px;
+	  height: 39px;
+	  object-fit: contain;
+	  border-radius: 2px;
+	  background-color: #3e63ff;
+	  margin-left:100px;
+	  margin-top:20px;
+	  padding-bottom:5px;
+	}
+	
+	#nav1
+	{
+		margin-top:15px;
+		margin-left:100px;
+		margin-bottom:15px;
+		margin-right:200px;
+		width:50px;
+		
+	}
+	#nav2
+	{
+		margin-top:15px;
+		margin-left:100px;
+		margin-right:100px;
+	}
+	
+	#application
+	{
+		color:#ff9839;
+	}
+	
+	#first-sentence{
+		margin-top:122px;
+		text-align:center;
+		font-family:Avenir-Heavy;
+		line-heught:39.5px;
+		line-spacing:0.72px;
+		
+	}
+	#our-offshore{
+		width: 563px;
+		height: 41px;
+		opacity: 0.8;
+		font-family: Avenir;
+		font-size: 15.5px;
+		font-weight: 500;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: 1.45;
+		letter-spacing: normal;
+		text-align: center;
+		color: rgba(36, 44, 54, 0.8);
+		margin-left:100px;
+	}
+	
+	#get-started
+	{
+	  color:#ff9839;
+	  text-align:center;
+	  width: 140px;
+	  height: 40px;
+	  object-fit: contain;
+	  border-radius: 4px;
+	  border: solid 1px #ff9839;
+	  background-color:white; 
+	}
+	
+	#illustration
+	{
+	width: 881px;
+	height: 381px;
+	object-fit: contain;
+	z-index:1;	
+	}
+		
+		
+	#welcome
+	{
+	font-family:Avenir-Heavy;
+	line-height:40px
+	text-align:center;
+	font-size:28px;
+	color:#212121;
+	margin-top:62px;
+	}
+	
+	#icon1, #icon2, #icon3
+	{
+	position:absolute;
+	width:72px;
+	z-index:2;
+	margin-top:47px;
+	margin-bottom:309px;
+	margin-left:136px;
+	margin-right:152px;
+	}
+	
+	
+	#icon-back
+	{
+	position:absolute;
+	width:121px;
+	height:92px;
+	z-index:1;
+	margin-top:33px;
+	margin-bottom:303px;
+	margin-left:111px;
+	margin-right:128px;
+	}
+	
+	#back
+	{
+	background-color:#fafcfe;
+	width:1330px;
+	z-index:0
+	}
+	
+	#grid1,#grid2,#grid3
+	{
+	background-color:transparent;
+	width:320px;
+	height:428px;
+	margin:50px;
+	}
+	
+	#grid2
+	{
+	background-color:white;
+	width:360px;
+	height:428px;
+	box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+	
+	#grid-content
+	{
+	  margin-top:194px;
+	  margin-bottom:218px;
+	  margin-left:25px;
+	  margin-right:83px;	
+	  width: 291px;
+	  height: 44px;
+	  font-family: Avenir;
+	  font-size: 20px;
+	  font-weight: 900;
+	  font-style: normal;
+	  font-stretch: normal;
+	  line-height: normal;
+	  letter-spacing: normal;
+	  text-align: center;
+	  color: #090913;
+	  z-index:3;
+	}
+	
+	#grid-para
+	{
+	  margin-top:249px;
+	  margin-bottom:500px;
+	  margin-left:30px;
+	  margin-right:29px;
+	  width: 301px;
+	  height: 59px;
+	  opacity: 0.52;
+	  font-family: Avenir;
+	  font-size: 14px;
+	  font-weight: 500;
+	  font-style: normal;
+	  font-stretch: normal;
+	  line-height: 1.57;
+	  letter-spacing: 0.3px;
+	  text-align: center;
+	  color: rgba(9, 9, 19, 0.52);
+	}
+	
+		#grid-button
+		{
+	  position:absolute;
+	  bottom:4%;
+	  right:30%;
+	  color:#757575;
+	  text-align:center;
+	  width: 140px;
+	  height: 40px;
+	  object-fit: contain;
+	  border-radius: 4px;
+	  border: solid 1px #757575;
+	  background-color:white;
+	  	}
+			
+	#grid-button2
+		{
+	  position:absolute;
+	  bottom:4%;
+	  right:30%;
+	  color:#757575;
+	  text-align:center;
+	  width: 140px;
+	  height: 40px;
+	  object-fit: contain;
+	  border-radius: 4px;
+	  border: solid 1px #757575;
+	  background-color:#fafcfe;
+	  	}
+		
+		#black-part
+		{
+	  width: 1330px;
+	  height: 800px;
+	  object-fit: contain;
+	  background-color: #151515
+		}
+		
+	.shape 
+	{
+	width: 1330px;
+	height: 471px;
+	object-fit: contain;
+	opacity: 0.5;
+	}
+	
+	.mobile-mockup
+	{
+	margin-top:-400px;
+	width: 298px;
+	height: 707px;
+	object-fit: contain;
+	box-shadow: 0px 10px 30px 0 rgba(0, 0, 0, 0.5);
+	}
+	
+	#our-projects
+	{
+	position:absolute;
+	bottom:32000%;
+	left:20%;
+	width: 162px;
+	height: 28px;
+	font-family: Avenir;
+	font-size: 28px;
+	font-weight: 900;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.43;
+	letter-spacing: normal;
+	text-align: left;
+	color: #fafcfe
+	}
+	
+		.sidenav
+		{
+		position:absolute;
+		bottom:14000%;
+		left:20%;
+		}
+	
+		/* The navigation menu links */
+		.sidenav a {
+		  width: 100px;
+		  height: 16px;
+		  opacity: 0.8;
+		  font-family: Avenir;
+		  padding: 20px 8px 20px 16px;
+		  text-decoration: none;
+		  font-size: 16px;
+		  font-weight: 900;
+		  line-height: 1.75;
+		  text-align: left;
+		  color: rgba(255, 255, 255, 0.8);
+		  display: block;
+		}
+
+		/* When you mouse over the navigation links, change their color */
+		.sidenav a:hover {
+		  border-bottom:5px solid orange;
+		}
+
+		/* Style page content */
+		.main {
+		  margin-left: 160px; /* Same as the width of the sidebar */
+		  padding: 0px 10px;
+		}
+
+		/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+		@media screen and (max-height: 450px) {
+		  .sidenav {padding-top: 15px;}
+		  .sidenav a {font-size: 18px;}
+		}
+		
+		#room-booking{
+			position:relative;
+			margin-top:-250px;
+			margin-left:-100px;
+			width: 500px;
+			height: 109px;
+			font-family: Avenir;
+			font-size: 48px;
+			font-weight: 500;
+			text-align: left;
+			color: #ffffff;
+		}
+		
+		#service
+		{
+	  position:relative;
+	  margin-left:-100px;
+	  width: 407px;
+	  height: 105px;
+	  opacity: 0.5;
+	  font-family: Avenir;
+	  font-size: 24px;
+	  font-weight: normal;
+	  font-style: normal;
+	  font-stretch: normal;
+	  line-height: 1.67;
+	  letter-spacing: normal;
+	  text-align: left;
+	  color: rgba(255, 255, 255, 2.5);
+		}
+		
+		#view-all
+		{
+	  position:absolute;
+	  bottom:4%;
+	  right:100%;
+	  left:-18%;
+	  color:#757575;
+	  text-align:center;
+	  width: 140px;
+	  height: 40px;
+	  object-fit: contain;
+	  border-radius: 4px;
+	  border: solid 1px #3d62ff;
+	  background-color:#151515;
+	  }
+	  
+	  .third-back
+	  {
+	  width:1330px;
+	  height:781px;
+	  background-color:#f8fafc;
+	  }
+	  
+	  #shapes2
+	  {
+	  position:absolute;
+	  width:471px;
+	  height:219px;
+	  object-fit:contain;
+	  margin-top:13px;
+	  margin-bottom:549px;
+	  margin-left:430px;
+	  margin-right:500px;
+	  z-index:1
+	  
+	  }
+	
+	#happy-clients
+	{
+	  position:absolute
+	  width:100px;
+	  height:50px;
+	  padding:50px 50px 50px 50px;
+	  margin-bottom:650px;
+	  margin-left:580px;
+	  margin-right:611px;
+	  font-family: Avenir;
+	  font-size: 25px;
+	  font-weight: 900;
+	  text-align: center;
+	  color: #212121;
+	  z-index:2;
+	}
+	
+	#by-ensuring
+	{
+	  position:absolute;
+	  width: 569px;
+	  height: 47px;
+	  top:395%;
+	  margin-bottom:900px;
+	  margin-left:417px;
+	  margin-right:415px;
+	  font-family: Avenir;
+	  font-size: 18px;
+	  font-weight: 500;
+	  font-style: normal;
+	  font-stretch: normal;
+	  line-height: 1.78;
+	  letter-spacing: normal;
+	  text-align: center;
+	  color: #757575;
+	  z-index:2;
+	}
+	
+	.third-white
+	{
+		position:absolute;
+		width:1170px;
+		height:341px;
+		top:430%;
+		margin-bottom:119px;
+		margin-left:116px;
+		margin-right:115px;
+		background-color:white;
+		box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		z-index:2;
+	}
+	
+	#ellipse
+	{
+		position:absolute;
+		width:100px;
+		height:100px;
+		margin-left:500px;
+		bottom:85%;
+		z-index:3;
+		
+	}
+	
+	#resto
+	{
+	  position:absolute;
+	  width: 669px;
+	  height: 149px;
+	  margin-top:80px;
+	  margin-bottom:112px;
+	  margin-left:250px;
+	  margin-right:251px;
+	  font-family: Avenir;
+	  font-size: 18px;
+	  font-weight: 500;
+	  line-height: 1.67;
+	  text-align: center;
+	  color: #5a5956;
+	  z-index:4;
+	  margin-left:
+	}
+	
+	#ben
+	{
+	  position:absolute;
+      font-size: 24px;
+	  font-weight: 900;
+	  left:42%;
+	  line-height: 2;
+	  color: #242d2e;
+	  z-index:4;
+	}
+	
+	#ceo
+	{
+	position:absolute;
+	font-size: 14px;
+	left:42%;
+	line-height: 3.5;
+	color: #ff9839;
+	z-index:4;
+	}
+	
+	#fourth-back
+	{
+		width:1330px;
+		height:1061px;
+		background-color:#3e63ff;
+	}
+	
+	#we-transform
+	{
+	  margin-top:144px;
+	  margin-right:1027px;
+	  margin-bottom:894px;
+	  margin-left:115px;
+   	  width: 258px;
+	  height: 23px;
+	  font-family: Avenir;
+	  font-size: 28px;
+	  font-weight: 900;
+	  line-height: 1.43;
+	  text-align: left;
+	  color: #ffffff;
+	}
+	
+	#digiapt
+	{
+	  position:absolute;
+	  width: 539px;
+	  height: 177px;
+	  opacity: 0.6;
+	  top:20%;
+	  margin-right:746px;
+	  margin-bottom:875px;
+	  margin-left:115px;
+	  font-family: Avenir;
+	  font-size: 16px;
+	  font-weight: 500;
+	  line-height: 2;
+	  text-align: left;
+	  color: rgba(255, 255, 255, 2.5);
+	}
+	
+	#illustration2
+	{
+	 position:absolute;
+	 right:10%;
+	 margin-top:124px;
+	}
+	
+	.fourth-blue
+	{
+		width:1240px;
+		height:346px;
+		margin-top:614px;
+		margin-bottom:101px;
+		margin-left:80px;
+		margin-right:80px;
+		box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);		
+	}
+	
+	#cup, #bulb, #code,#tick
+	{
+		position:absolute;
+		margin-top:158px;
+		margin-bottom:136px;
+		margin-right:1053px;
+	}
+	
+	#cup
+	{
+		
+		left:20%;
+	}
+	
+	#bulb
+	{
+		left:40%;
+	}
+	
+	#code
+	{
+		left:60%;
+	}
+	
+	#tick
+	{
+		left:80%;
+	}
+	
+	#our-success-recipes
+	{
+	position:absolute;
+	margin-top:61px;
+	margin-left:487px;
+	margin-right:487px;
+	margin-bottom:257px;
+	width: 266px;
+	height: 28px;
+	font-family: Avenir;
+	font-size: 28px;
+	font-weight: 900;
+	line-height: 1.14;
+	text-align: center;
+	color: white;
+	}
+	
+	#bulb-text,#cup-text,#tick-text,#code-text
+	{
+	  position:absolute;
+	  width: 229px;
+	  height: 20px;
+	  opacity: 1;
+	  margin-top:158px;
+	  margin-bottom:257px;
+	  margin-right:1053px;
+	  font-family: Avenir;
+	  font-size: 20px;
+	  font-weight: 500;
+	  text-align: center;
+	  color:rgba(255, 254, 254, 0.6);
+	  z-index:5;
+	}
+	
+	#cup-text
+	{
+	left:15%;
+	top:620%;
+	}
+	
+	#bulb-text
+	{
+	left:35%;
+	top:620%;
+	}
+
+	#code-text
+	{
+	left:55%;
+	top:620%;
+	}
+
+	#tick-text
+	{
+	left:75%;
+	top:620%;
+	}
+	
+	#contact-us
+	{
+	  position:absolute
+	  width:100px;
+	  height:50px;
+	  padding:50px 50px 50px 50px;
+	  margin-bottom:650px;
+	  margin-left:400px;
+	  margin-right:611px;
+	  font-family: Avenir;
+	  font-size: 25px;
+	  font-weight: 900;
+	  text-align: center;
+	  color: #212121;
+	  z-index:2;
+	}
+	
+	 #shapes2
+	  {
+	  position:absolute;
+	  width:471px;
+	  height:219px;
+	  object-fit:contain;
+	  margin-top:13px;
+	  margin-bottom:549px;
+	  margin-left:300px;
+	  margin-right:500px;
+	  z-index:1
+	  }
+		
+		#email,#call,#address
+		{
+		width:375px;
+		height:156px;
+		box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);		
+		}
+	
+		#email
+		{
+			position:absolute;
+			margin-top:-500px;
+			border-radius:10px;
+			z-index:15;
+			
+		}
+		
+		#call
+		{
+			position:absolute;
+			margin-top:-300px;
+			border-radius:10px;
+			z-index:15;
+		}
+
+		#address
+		{
+			position:absolute;
+			margin-top:-100px;
+			border-radius:10px;
+			z-index:15;
+		}
+		
+		#email-icon,#phone,#map
+		{
+			position:absolute;
+			margin-left:32px;
+			margin-top:52px;
+		}
+		
+		#box-heading
+		{
+		position:absolute;
+		width: 49px;
+		height: 16px;
+		margin-top:38px;
+		margin-left:92px;
+		font-family: Avenir;
+		font-size: 20px;
+		font-weight: 900;
+		line-height: 2.4;
+		text-align: left;
+		color: #000000;
+		}
+		
+		#box-content
+		{
+		position:absolute;
+		width: 236px;
+		height: 66px;
+		margin-top:80px;
+		margin-left:92px;
+		font-family: Avenir;
+		font-size: 16px;
+		font-weight: 500;
+		line-height: 1.63;
+		text-align: left;
+		color: #9fa4af;
+		}
+		
+		#google-map
+		{
+		position:absolute;
+		bottom:70%;
+		left:-5%;
+		}
+		
+		#fifth-back
+		{
+		background-color:#3e63ff;
+		}
+		
+	.Logo 
+	  {
+       width: 64px;
+       height: 93px;
+       object-fit: contain;
+	   position:absolute;
+	   left:116px;
+	   right:1221px;
+	   top:70px;
+	   bottom:257px;
+      }
+	  .Bg 
+	  {
+      width: 1401px;
+      height: 420px;
+      object-fit: contain;
+      background-color: #303030;
+      }
+	  #p2 
+	  {
+      width: 290px;
+      height: 105px;
+      opacity: 0.5;
+      font-family: Avenir;
+      font-size: 15px;
+      font-weight: 500;
+      position:absolute;
+	  top:186px;
+	  bottom:129px;
+	  left:116px;
+	  right:995px;
+      line-height: 1.47;
+      letter-spacing: 0.8px;
+      text-align: left;
+      color: rgba(255, 255, 255, 0.5);
+     }
+	#fifth-list
+	 {
+       width: 67px;
+       height: 175px;
+       font-family: Avenir;
+       font-size: 15px;
+       font-weight: 500;
+       position:absolute;
+	   top:70px;
+       bottom:175px;
+       left:500px;
+       right:707px;
+	   line-height: 2.67;
+       letter-spacing: 0.8px;
+       text-align: left;
+       color: #adadad;
+    }
+    #li1 
+	{
+    color: #ffffff;
+    }
+	#Newsletter 
+	{
+    width: 90px;
+    height: 13px;
+    opacity: 0.8;
+    font-family: Avenir;
+    font-size: 16px;
+    font-weight: 900;
+	position:absolute;
+	top:70px;
+	bottom:337px;
+	right:401px;
+	left:918px;
+    line-height: 3;
+    text-align: left;
+    color: rgba(254, 254, 254, 0.8);
+	}
+#p3
+ {
+  width: 355px;
+  height: 41px;
+  font-family: Avenir;
+  font-size: 14px;
+  font-weight: 500;
+  position:absolute;
+  top:108px;
+  bottom:271px;
+  right:219px;
+  left:917px;
+  line-height: 1.86;
+  text-align: left;
+  color: #b3b7c8;
+}
+#p4
+{
+  width: 32px;
+  height: 10px;
+  font-family: Avenir;
+  font-size: 12px;
+  font-weight: 500;
+  position:absolute;
+  top:164px;
+  bottom:215px;
+  right:439px;
+  left:930px;
+  line-height: 2.17;
+  text-align: left;
+  color: #b3b7c8;  
+}
+.Btn-bg {
+  width: 121px;
+  height: 41px;
+  object-fit: contain;
+  border-radius: 1.5px;
+  background-color: #3e63ff;
+  position:absolute;
+  top:164px;
+  bottom:215px;
+  right:116px;
+  left:1164px;
+  border-radius:5px
+  text-align:auto;
+}
+#p5
+{
+  width: 63px;
+  height: 10px;
+  font-family: Avenir;
+  font-size: 12px;
+  font-weight: 900;
+  position:absolute;
+  top:164px;
+  bottom:215px;
+  left:1192px;
+  right:146px;
+  line-height: 2.17;
+  text-align: left;
+  color: white;
+}
+#p6
+{
+  width: 72px;
+  height: 13px;
+  opacity: 0.8;
+  font-family: Avenir;
+  font-size: 16px;
+  font-weight: 900;
+  position:absolute;
+  top:200px;
+  bottom:159px;
+  left:918px;
+  right:411px;
+  line-height: 3;
+  text-align: left;
+  color: rgba(254, 254, 254, 0.8);
+}
+#i1 
+{
+  width: 14px;
+  height: 14px;
+  object-fit: contain;
+  opacity:0.8;
+  background-color: #a7a7a7;
+  position:absolute;
+  top:278px;
+  bottom:128px;
+  right:496px;
+  left:918px;
+}
+#i2
+{
+  width: 14px;
+  height: 14px;
+  object-fit: contain;
+  opacity:0.8;
+  background-color: #a7a7a7;
+  position:absolute;
+  top:278px;
+  bottom:128px;
+  right:437px;
+  left:950px;
+}
+#i3
+{
+  width: 16px;
+  height: 14px;
+  object-fit: contain;
+  background-color: #ff9839;
+  position:absolute;
+  top:278px;
+  bottom:128px;
+  right:403px;
+  left:982px;
+}
+	#p7
+	{
+	  width: 192px;
+	  height: 13px;
+	  opacity: 0.4;
+	  font-family: Avenir;
+	  font-size: 12px;
+	  font-weight: 500;
+	  line-height: 3.33;
+	  letter-spacing: 0.6px;
+	  text-align: left;
+	  color: rgba(255, 255, 255, 0.4);
+	  position:absolute;
+	  top:388px;
+	  bottom:19px;
+	  left:614px;
+	  right:595px;
+	}
+	
+	.fifth-part
+	{
+	position:absolute;
+	top:830%;
+	}
+
+	
+	</style>
+</head>
+	<nav class="navbar navbar-default navbar-expand-lg" style = "background-color:white" >
+	<div class="container-fluid">
+    <div id = "logo" class="navbar-header">
+      <img id = "nav1"  src = "logo.png" alt = "Logo not available">
+    </div>
+    <ul id = "nav2" class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Industries</a></li>
+	  <li><a href="#">About Company</a></li>
+	  <li><a href="#">Blog</a></li>
+    </ul>
+	<button class = "btn navbar-btn" id ="contact">CONTACT US</button>
+	</div>
+	</nav>
+	
+	<div id = "second" >
+	<h1 id = "first-sentence" >Big Problems Solved With Internet <span id = "application">Appplications<span></h1>
+	<center><p id = "our-offshore">Our offshore product development service provides you a technology partner<br />that builds and maintains the technology stack for your product</p><center><br />
+	<button id = "get-started" value = "Get started">GET STARTED</button><br /><br />
+	<img id = "illustration" src = "illustration.png" alt = "Image not available">
+	</div>
+	
+	<br /><br /><h2 id = "welcome" style= "text-align:center">Welcome To Digiapt</h2><br /><br /><br />
+	<div id = "back" class= "container" >
+		<div id = "three" class = "row">
+			<div id = "grid1" class="col-md-4" >
+				<img id = "icon-back" src = "icon-background.svg" alt = "background not available">
+				<img id = "icon1" src = "icon1.png" alt = "Icon not available">
+				<p id = "grid-content">Offshore Product Development <span id = "grid-para"><br /><br />Our offshore product development service provides you a technology partner that builds and maintains the technology stack for your product. We provide you resources to manage, architect and develop your product.</span></p>
+				<button id ="grid-button2">Learn More</button>
+			</div>
+			<div id = "grid2" class="col-md-4" style ="background-color:white">
+				<img id = "icon-back" src = "icon-background.svg" alt = "background not available">
+				<img id = "icon2" src = "icon2.png" alt = "Icon not available">
+				<p id = "grid-content">Business Automation
+				<span id = "grid-para"><br /><br />E-Commerce: Sell your products and services over the internet. Get a global customer base with the benefits of technology to build your virtual shop.</span></p>
+				<button id ="grid-button">Learn More</button>
+			</div>
+			<div id = "grid3" class="col-md-4" >
+				<img id = "icon-back" src = "icon-background.svg" alt = "background not available">
+				<img id = "icon3" src = "icon3.png" alt = "Icon not available">
+				<p id = "grid-content">MVP - Minimum Viable Product Development
+				<span id = "grid-para"><br /><br />Having built several products, we understand what it takes to build your core product quickly and within a limited budget.</span></p>
+				<button id ="grid-button2">Learn More</button>
+			</div>
+		</div>
+	</div>	
+	
+	<div id = "black-part" class = "container">
+	<img class = "shape" src = "shape.png" alt = "Image not found">
+		<div class  = "row">
+			<div class = "col-md-4">
+				<p id = "our-projects">Our Projects</p>
+			    <div class="sidenav">
+					<a href="#">Project 1</a>
+					<a href="#">Project 2</a>
+					<a href="#">Project 3</a>
+				</div>
+			</div>
+			<div class = "col-md-4">
+			<p id = "room-booking">Room Booking Service,<br />iOS App</p><br />
+			<p id = "service">Service «Smart Widget», built into our system automatically identifies the mobile Internet users to your website.</p>
+			<br /><br /><br /><br /><br /><button id ="view-all">VIEW ALL</button>
+			</div>
+			<div class = "col-md-4">
+				<img class = "mobile-mockup" src = "mobile-mockup.png" alt = "mobile image not available">
+			</div>
+		</div>
+	</div>
+	
+	<div class = "third-back">
+	<img id = "shapes2" src = "shapes2.png" alt = "Image not available">
+	<p id = "happy-clients">Happy<span style = color:#f8fafc>p</span>Clients</p>
+	<p id = "by-ensuring">By ensuring quality on services and delivery through latest technology we make relations that last forever</p>
+		<div class = "third-white">
+		<img  id = "ellipse" src= "ellipse.png" alt = "Image not available">
+		<p id = "resto">RESTO themes, unique service - Orion not only produce a wonderful product - They guide you through making the product work for YOU! Responsive layout and responsive staff... Happy with Digiapt service.
+			<br /><span id = "ben">Ben Lamm</span>
+			<br /><span id = "ceo">CEO - Co Founder</span>
+		</p>
+		</div>
+	</div>
+	
+	<div id = "fourth-back" class = "container">
+		<div class = "row">
+			<div class = "col-md-8">
+			<p id = "we-transform">We Transform Ideas</p>
+			<p id = "digiapt">Digiapt is a services company founded by alumni of IIT Bombay with the mission of providing high end quality technology services. In the last few decades, Information Technology has touched every business landscape. It has evolved in rapid strides, from large number crunching, to automating manual activities, to enabling businesses, to providing distinctive business advantages. Businesses both large and small have changed forever.</p>
+			</div>
+			<div class = "col-md-4">
+			<image id = "illustration2" src= "illustration2.png" alt = "Image not found">
+			</div>
+			<div class = "fourth-blue">
+			<p id = "our-success-recipes">Our Success Recipes</p>
+				<img id = "cup" src= "cup.png" alt = "Cup Image not found">
+				<p id = "cup-text">Sucess Driven</p>
+				<img id = "bulb" src= "bulb.png" alt = "Bulb Image not found">
+				<p id = "bulb-text">Talented People</p>
+				<img id = "code" src= "code.png" alt = "Code Image not found">		
+				<p id = "code-text">Cutting Edge Technology</p>
+				<img id = "tick" src= "tick.png" alt = "Tick Image not found">
+				<p id = "tick-text">Right Sized Processes</p>
+			<div>
+		</div>
+	</div>
+	
+	<div class = "container">
+		<div class = "row">
+		<img id = "shapes2" src = "shapes2.png" alt = "Image not available">
+		<p id = "contact-us">Contact<span style = color:#f8fafc>p</span>Us</p>
+			<div class = "col-md-8">
+			<div id="google-map" style="width:735px;height:518px;background:grey"></div>  
+					<script>  
+					function myMap() {  
+					var mapOptions = {  
+						center: new google.maps.LatLng(51.5, -0.12),  
+						zoom: 10,  
+						mapTypeId: google.maps.MapTypeId.HYBRID  
+					}  
+					var map = new google.maps.Map(document.getElementById("map"), mapOptions);  
+					}  
+					</script>  
+					<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>  
+			</div>
+			<div class = "col-md-4">
+			<div>
+				<div id = "email">
+				<img id = "email-icon" src = "email-icon.png" alt = "Image not available">
+				<p id = "box-heading">Email</p>
+				<p id = "box-content">services@digiapt.com</p>
+				</div>
+				<div id = "call">
+				<img id = "phone" src = "phone.png" alt = "Image not available">
+				<p id = "box-heading">Call</p>
+				<p id = "box-content">+91-80-45320055</p>
+				</div>
+				<div id = "address">
+				<img id = "map" src = "map.png" alt = "Image not available">
+				<p id = "box-heading">Address</p>
+				<p id = "box-content">#435, 3rd Floor, 27th Main Road, Sector 1, HSR Layout, Bangalore 560102, Karnataka. India</p>
+				</div>
+		</div>
+	</div>	
+	</div>
+	</div>
+	
+	<div class = "fifth-part">
+		<img  class="Logo" src="logo.png" >
+		<img class="Bg" src="bg.png">
+		<p id = "p2">At Digiapt, we take this breathtaking changing landscape as a challenge and continually invest in mastering modern technology offerings
+		 to harness improved efficiencies.</p>
+		 <p id="Newsletter">Newsletter</p>
+		 <p id="p3">Subscribe our newsletter gor get notification about new updates, information discount, etc.</p>
+		 <ul id = "fifth-list">
+			 <li id="li1">Home</li>
+			 <li>Services</li>
+			 <li>Portfolio</li>
+			 <li>About<span style = "color:#303030">P</span>us</li> 
+			 <li>Blog</li>
+		</ul>
+		<p id="p4">Email</p>
+		<img class="Btn-bg" src="btn-bg.png">
+		<p id="p5" style = "text-align:center">Subscribe</p>	
+		<p id="p6">Follow Us</p> 
+		<img id="i1" src="fb.jpg">
+		<img id="i2" src="insta.jpg"> 
+		<img id="i3" src="tweet.jpg">
+		<p id="p7">Copyright © 2009-2017. Digiapt</p>	 
+	</div>
+</body>
+</html>
