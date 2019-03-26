@@ -1,50 +1,39 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-       <title>About Us</title>
+    <title>About Us</title>
 	<style>   
-	 #logo 
-	 {
-     width: 45px;
-     height: 67px;
-     object-fit: contain;
-	 position:absolute;
-	 top:10px;
-	 bottom:4093px;
-	 left:114px;
-	 right:1241px;
-     }
-	#pre1
+	#contact 
 	{
-     width: 428px;
-     height: 14px;
-     font-family: Avenir;
-     font-size: 13px;
-     font-weight: 500;
-     position:absolute;
-	 top:20px;
-	 bottom:4120px;
-	 left:486px;
-	 right:486px;
-     line-height: 2.69;
-     letter-spacing: 0.7px;
-     text-align: center;
-     color: #242c36;
-     }
-	 #contact
-	 {
-	 width: 140px;
-     height: 39px;
-     object-fit: contain;
-     border-radius: 2px;
-	 color:white;
-     background-color: #3e63ff;
-	 position:absolute;
-	 left:1144px;
-	 right:116px;
-	 top:23px;
-	 bottom:4108px;
-	 }
+	  width: 140px;
+	  height: 39px;
+	  object-fit: contain;
+	  border-radius: 2px;
+	  background-color: #3e63ff;
+	  margin-left:100px;
+	  margin-top:20px;
+	  padding-bottom:5px;
+	}
+	#nav1
+	{
+		margin-top:15px;
+		margin-left:100px;
+		margin-bottom:15px;
+		margin-right:200px;
+		width:50px;
+		
+	}
+	#nav2
+	{
+		margin-top:15px;
+		margin-left:100px;
+		margin-right:100px;
+	}
+	
+	#application
+	{
+		color:#ff9839;
+	}
 	 #black-bg
 	 {
      width: 1400px;
@@ -1316,14 +1305,21 @@
 	   </style>
 </head>
 <body>
-<img src="assets/images/layer-7.png"
-     srcset="assets/images/layer-7@2x.png 2x,
-             assets/images/layer-7@3x.png 3x"
-     id="logo" alt="image not available">
-<pre id="pre1">
-Home        Projects        Industries        About Company        Blog
-</pre>
-<button id="contact">CONTACT US</button>
+<nav class="navbar navbar-default navbar-expand-lg" style = "background-color:white" >
+	<div class="container-fluid">
+    <div id = "logo" class="navbar-header">
+      <img id = "nav1"  src = "assets/images/logo.png" alt = "Logo not available">
+    </div>
+    <ul id = "nav2" class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Industries</a></li>
+	  <li><a href="aboutus.html">About Company</a></li>
+	  <li><a href="#">Blog</a></li>
+    </ul>
+	<button class = "btn navbar-btn" id ="contact">CONTACT US</button>
+	</div>
+	</nav>
 <img src="assets/images/banner-image.png"
      srcset="assets/images/banner-image@2x.png 2x,
              assets/images/banner-image@3x.png 3x"
