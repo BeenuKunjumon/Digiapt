@@ -1,0 +1,812 @@
+<!DOCTYPE HTML>
+<html>
+<head lang = "en">
+	<title>Portfolio</title>
+		<meta charset = "utf-8">
+	<meta name = "viewport" content = "width = device-width, initial-scale = 1">
+	<link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<link rel = "stylesheet" type= "text/css" href = "sidebar.css">
+	<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" ></script>
+	<script src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	
+	<style>
+	
+	#contact-btn
+	{
+	  width: 140px;
+	  height: 39px;
+	  border-radius: 2px;
+	  background-color: #3e63ff;
+	  margin-left:100px;
+	  margin-top:20px;
+	  padding-bottom:5px;
+	}
+	
+	#nav1
+	
+	{
+		margin-top:15px;
+		margin-left:100px;
+		margin-bottom:15px;
+		margin-right:200px;
+		width:50px;
+	}
+	#nav2
+	{
+		margin-top:15px;
+		margin-left:100px;
+		margin-right:100px;
+	}
+	
+	#first-part
+	{
+		position:absolute;
+		top:15%;
+		width:1400px;
+		height:239px;
+		background-color: rgba(0, 0, 0, 0.8);
+	}
+	#heading1
+	{
+		position:absolute;
+		margin-top:90px;
+		margin-bottom:101px;
+		margin-left:500px;
+		margin-right:577px;
+		width: 247px;
+		height: 36px;
+		font-family: Avenir;
+		font-size: 48px;
+		font-weight: 900;
+		line-height: 0.83;
+		text-align: center;
+		color: #ffffff;
+	}
+	
+	#heading2
+	{
+	  position:absolute;
+	  margin-top:318px;
+	  margin-bottom:2896px;
+	  margin-left:116px;
+	  margin-right:466px;
+	  width: 819px;
+	  height: 100px;
+	  font-family: Avenir;
+	  font-size: 44px;
+	  font-weight: 500;
+	  text-align: left;
+	  color: #212121;
+	}
+	
+	#nav3
+	{
+		margin-top:488px;
+		margin-left:121px;
+		margin-right:622px;
+		margin-bottom:2804px;
+	}
+	
+	#li-elements
+	{
+	  font-family: Avenir;
+	  font-size: 18px;
+	  font-weight: 900;
+	  line-height: 1.67;
+	  padding-right:30px;
+	  color:yellow;
+	}
+	
+	#nav3 a:hover 
+	{
+		  border-bottom:5px solid blue;
+		  background-color:transparent;
+	}
+	
+	#box1,#box2,#box3,#box9
+	{
+	  width: 306px;
+	  height: 199px;
+	}
+	
+	#box5
+	{
+		width: 307px;
+		height: 261px;
+	}
+	
+	#box4
+	{
+		position:absolute;
+		margin-top:28px;
+		width: 276.4px;
+		height: 288px;	
+	}
+	
+	#box6
+	{
+		position:absolute;
+		top:-12%;
+		width: 150px;
+		height: 291px;
+		left:25%;
+	}
+	
+		#box7
+	{
+		position:absolute;
+		top:20%;
+		width: 327px;
+		height: 247px;		
+		left:2%;
+	}
+
+	
+	
+	#box1,#box2,#box3,#box5,#box6,#box8,#box9
+	{
+	    position:absolute;
+		margin-top:58px;
+		margin-left:20px;
+		margin-right:22px;
+		margin-bottom:584px;
+	}
+	
+		
+	#box1-back,#box2-back,#box3-back,#box4-back,#box5-back,#box6-back,#box7-back,#box8-back,#box9-back 
+	{
+	  width: 348px;
+	  height: 315px;
+	  border-radius: 4px;
+
+	}
+	
+	#box1-back
+	{
+		position:absolute;
+		top:130%;
+		margin-left:116px;
+		margin-right:937px;
+		margin-bottom:3000px;
+		background-color: #fb7790;
+	
+	}
+	
+		#box2-back
+	{
+		position:absolute;
+		top:130%;
+		margin-left:527px;
+		margin-right:526px;
+		margin-bottom:3000px;
+		background-color:black;
+	
+	}
+	
+		#box3-back
+	{
+		position:absolute;
+		top:130%;
+		margin-left:937px;
+		margin-right:116px;
+		margin-bottom:3000px;
+		background-color:#7e61c8;
+	
+	}
+	
+	#box4-back
+	{
+		position:absolute;
+		top:130%;
+		margin-top:470px;
+		margin-left:116px;
+		margin-right:937px;
+		margin-bottom:1921px;
+		background-color:#ffcc5f;
+	
+	}
+	
+		#box5-back
+	{
+		position:absolute;
+		top:130%;
+		margin-top:470px;
+		margin-left:527px;
+		margin-right:937px;
+		margin-bottom:1921px;
+		background-color:#8addcb;
+	
+	}
+	
+			#box6-back
+	{
+		position:absolute;
+		top:130%;
+		margin-top:470px;
+		margin-left:937px;
+		margin-right:527px;
+		margin-bottom:1921px;
+		background-color:#68c2f0;
+	
+	}
+
+	#box7-back
+	{
+		position:absolute;
+		top:210%;
+		margin-top:470px;
+		margin-left:116px;
+		margin-right:937px;
+		margin-bottom:1921px;
+		background-color:#ff4f52;
+	
+	}
+	
+	
+	#box8-back
+	{
+		position:absolute;
+		top:210%;
+		margin-top:470px;
+		margin-left:527px;
+		margin-right:526px;
+		margin-bottom:3000px;
+		background-color:#43dfa0;
+	
+	}
+	
+		#box9-back
+	{
+		position:absolute;
+		top:210%;
+		margin-top:470px;
+		margin-left:937px;
+		margin-right:527px;
+		margin-bottom:1921px;
+		background-color:#ffa02c;
+	
+	}
+
+
+
+	#box1-heading
+	{
+	  width: 143px;
+	  height: 21px;
+	  font-family: Avenir;
+	  font-size: 20px;
+	  font-weight: 500;
+	  line-height: 2;
+	  text-align: center;
+	  color: #212121;
+	}
+	
+	.box4-heading
+	{
+		position:absolute;
+		left:-8%;
+	}
+	
+	#box1-heading
+	{
+		position:absolute;
+		top:105%;
+	}
+	
+	#box1-para,#box2-para,#box3-para,#box4-para,#box5-para,#box6-para
+	{
+	  width: 105px;
+	  height: 15px;
+	  font-family: Avenir;
+	  font-size: 14px;
+	  font-weight: 500;
+	  line-height: 2.86;
+	  text-align: left;
+	  color: #757575;
+	}
+	
+	#box1-para
+	{
+		position:absolute;
+		top:115%;
+		left:3%;
+	}
+	.line1
+	{
+	  width: 348px;
+	  height: 6000px;
+	  background-color: #ffffff;
+	}
+		
+	.line1
+	{
+		position:absolute;
+		top:125%;
+		left:3%;
+	}
+	
+	.line1 a:hover
+	{
+		  border-bottom:5px solid blue;
+		  background-color:transparent;
+	}
+	
+		#third-part
+	{
+	position:absolute;
+	top:430%;
+	left:5%;
+	z-index:20;
+	}
+	
+	#name, #about, #youremail
+	{
+	width: 575px;
+	height: 56px;
+	object-fit: contain;
+	border-radius: 4px;
+	border: solid 1px rgba(0, 0, 0, 0.1);
+	background-color: #ffffff;
+	text-align:left;
+	}
+	
+	#youremail
+	{
+	margin-left:650px;
+	margin-top:-69px;
+	}
+	
+	
+	#describe
+	{
+	width: 1230px;
+	height: 229px;
+	object-fit: contain;
+	border-radius: 4px;
+	border: solid 1px rgba(0, 0, 0, 0.1);
+	background-color: #ffffff;
+	}
+
+	.send-msg
+	{
+	  position:absolute;
+	  margin-left:576px;
+	  margin-top:20px;
+	  width: 140px;
+	  height: 39px;
+	  object-fit: contain;
+	  border-radius: 4px;
+	  background-color: #3e63ff;
+	  border: 1px solid #3e63ff;
+	  color:white;
+	}
+	
+	#view-more
+	{
+	position:absolute;
+	margin-left:576px;
+	top:365%;
+	}
+	
+		#tell-us
+	{
+	  position:absolute;
+	  top:385%;
+	  margin-bottom:1928px;
+	  margin-left:406px;
+	  margin-right:409px;
+	  width: 586px;
+	  height: 49px;
+	  font-family: Avenir;
+	  font-size: 48px;
+	  font-weight: 900;
+	  line-height: 0.83;
+	  text-align: center;
+	  color: #212121;
+	}
+	
+	#first-para
+	{
+	  position:absolute;
+	  top:400%;
+	  margin-bottom:1812px;
+	  margin-left:294px;
+	  margin-right:303px;
+	  width: 804px;
+	  height: 83px;
+	  font-family: Avenir;
+	  font-size: 18px;
+	  font-weight: 500;
+	  line-height: 1.78;
+	  text-align: center;
+	  color: #757575;
+	}
+		.Logo 
+	  {
+       width: 64px;
+       height: 93px;
+       object-fit: contain;
+	   position:absolute;
+	   left:116px;
+	   right:1221px;
+	   top:70px;
+	   bottom:257px;
+      }
+	  .Bg 
+	  {
+      width: 1401px;
+      height: 420px;
+      object-fit: contain;
+      background-color: #303030;
+      }
+	  #p2 
+	  {
+      width: 290px;
+      height: 105px;
+      opacity: 0.5;
+      font-family: Avenir;
+      font-size: 15px;
+      font-weight: 500;
+      position:absolute;
+	  top:186px;
+	  bottom:129px;
+	  left:116px;
+	  right:995px;
+      line-height: 1.47;
+      letter-spacing: 0.8px;
+      text-align: left;
+      color: rgba(255, 255, 255, 0.5);
+     }
+	#fifth-list
+	 {
+       width: 67px;
+       height: 175px;
+       font-family: Avenir;
+       font-size: 15px;
+       font-weight: 500;
+       position:absolute;
+	   top:70px;
+       bottom:175px;
+       left:500px;
+       right:707px;
+	   line-height: 2.67;
+       letter-spacing: 0.8px;
+       text-align: left;
+       color: #adadad;
+    }
+    #li1 
+	{
+    color: #ffffff;
+    }
+	#Newsletter 
+	{
+    width: 90px;
+    height: 13px;
+    opacity: 0.8;
+    font-family: Avenir;
+    font-size: 16px;
+    font-weight: 900;
+	position:absolute;
+	top:70px;
+	bottom:337px;
+	right:401px;
+	left:918px;
+    line-height: 3;
+    text-align: left;
+    color: rgba(254, 254, 254, 0.8);
+	}
+#p3
+ {
+  width: 355px;
+  height: 41px;
+  font-family: Avenir;
+  font-size: 14px;
+  font-weight: 500;
+  position:absolute;
+  top:108px;
+  bottom:271px;
+  right:219px;
+  left:917px;
+  line-height: 1.86;
+  text-align: left;
+  color: #b3b7c8;
+}
+#p4
+{
+  width: 32px;
+  height: 10px;
+  font-family: Avenir;
+  font-size: 12px;
+  font-weight: 500;
+  position:absolute;
+  top:164px;
+  bottom:215px;
+  right:439px;
+  left:930px;
+  line-height: 2.17;
+  text-align: left;
+  color: #b3b7c8;  
+}
+.Btn-bg {
+  width: 121px;
+  height: 41px;
+  object-fit: contain;
+  border-radius: 1.5px;
+  background-color: #3e63ff;
+  position:absolute;
+  top:164px;
+  bottom:215px;
+  right:116px;
+  left:1164px;
+  border-radius:5px
+  text-align:auto;
+}
+#p5
+{
+  width: 63px;
+  height: 10px;
+  font-family: Avenir;
+  font-size: 12px;
+  font-weight: 900;
+  position:absolute;
+  top:164px;
+  bottom:215px;
+  left:1192px;
+  right:146px;
+  line-height: 2.17;
+  text-align: left;
+  color: white;
+}
+#p6
+{
+  width: 72px;
+  height: 13px;
+  opacity: 0.8;
+  font-family: Avenir;
+  font-size: 16px;
+  font-weight: 900;
+  position:absolute;
+  top:200px;
+  bottom:159px;
+  left:918px;
+  right:411px;
+  line-height: 3;
+  text-align: left;
+  color: rgba(254, 254, 254, 0.8);
+}
+#i1 
+{
+  width: 14px;
+  height: 14px;
+  object-fit: contain;
+  opacity:0.8;
+  background-color: #a7a7a7;
+  position:absolute;
+  top:278px;
+  bottom:128px;
+  right:496px;
+  left:918px;
+}
+#i2
+{
+  width: 14px;
+  height: 14px;
+  object-fit: contain;
+  opacity:0.8;
+  background-color: #a7a7a7;
+  position:absolute;
+  top:278px;
+  bottom:128px;
+  right:437px;
+  left:950px;
+}
+#i3
+{
+  width: 16px;
+  height: 14px;
+  object-fit: contain;
+  background-color: #ff9839;
+  position:absolute;
+  top:278px;
+  bottom:128px;
+  right:403px;
+  left:982px;
+}
+	#p7
+	{
+	  width: 192px;
+	  height: 13px;
+	  opacity: 0.4;
+	  font-family: Avenir;
+	  font-size: 12px;
+	  font-weight: 500;
+	  line-height: 3.33;
+	  letter-spacing: 0.6px;
+	  text-align: left;
+	  color: rgba(255, 255, 255, 0.4);
+	  position:absolute;
+	  top:388px;
+	  bottom:19px;
+	  left:614px;
+	  right:595px;
+	}
+	
+	.fifth-part
+	{
+	position:absolute;
+	top:520%;
+	}
+
+
+
+	</style>
+<head>
+<body>
+	<nav class="navbar navbar-default navbar-expand-lg"  >
+	<div class="container-fluid">
+		<div id = "logo" class = "navbar-header">
+		<img id = "nav1" src="assets/images/logo@2x.png" srcset="img/layer-2@2x.png 2x,img/layer-2@3x.png 3x">
+		</div>
+    <ul id = "nav2" class="nav navbar-nav">
+      <li><a href="index.htm">Home</a></li>
+      <li class="active"><a href="portfolio.htm">Projects</a></li>
+      <li><a href="industries.html">Industries</a></li>
+	  <li><a href="aboutus.htm">About Company</a></li>
+	  <li><a href="blog.htm">Blog</a></li>
+    </ul>
+	<button class = "btn navbar-btn" id ="contact-btn">CONTACT US</button>
+	</div>
+	</nav>
+	
+	<div id = "first-part">
+		<p id = "heading1">PORTFOLIO</p> 
+	</div>
+	
+	<p id = "heading2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+	
+	<nav id = "navy" class="navbar navbar-default navbar-expand-lg" style = "background-color:transparent;border:none;" >
+	<div style = "background-color:transparent">
+	  <ul id = "nav3" class="nav navbar-nav">
+      <li id = "li-elements"><a href="#">All works</a></li>
+      <li id = "li-elements"><a href="#">iOS</a></li>
+      <li id = "li-elements"><a href="#">Android</a></li>
+	  <li id = "li-elements"><a href="#">Web Applications</a></li>
+    </ul>
+	</div>
+	</nav>
+	
+	<div id = "first">
+		<div id = "box1-back">
+		<img id = "box1" src="assets/images/macbook-pro.png" alt = "Image not available" srcset="img/macbook-pro@2x.png 2x,img/macbook-pro@3x.png 3x">
+		<p id = "box1-heading">Winescape-web</p>
+		<p id = "box1-para">Web Application</p>
+		<hr class = "line1">
+		</div>
+	</div>
+	
+	<div id = "second">
+		<div id = "box2-back">
+		<img id = "box2" src="assets/images/macbook-pro.png" alt = "Image not available" srcset="img/macbook-pro@2x.png 2x,img/macbook-pro@3x.png 3x">
+		<p id = "box1-heading">Cyrcle Booking</p>
+		<p id = "box1-para">iOS </p>
+		<hr class = "line1">
+		</div>
+	</div>
+
+
+	<div id = "third">
+			<div id = "box3-back">
+			<img id = "box3" src="assets/images/01.png" alt = "Image not found" srcset="img/01@2x.png 2x,img/01@3x.png 3x">
+			<p id = "box1-heading">Winescape-web</p>
+			<p id = "box1-para">Web Application</p>
+			<hr class = "line1">
+			</div>
+		</div>
+
+
+	<div id = "fourth">
+			<div id = "box4-back">
+			<img id = "box4" src=" assets/images/mobile.png" alt = "Image not available" srcset="img/mobile@2x.png 2x,img/mobile@3x.png 3x">
+			<p class= "box4-heading" id = "box1-heading">Ihomepal</p>
+			<p id = "box1-para">Android</p>
+			<hr class = "line1">
+			</div>
+		</div>
+
+
+	<div id = "fifth">
+			<div id = "box5-back">
+			<img  id = "box5" src="assets/images/mockup.png" alt = "Image not found" srcset="img/mockup@2x.png 2x,img/mockup@3x.png 3x">
+			<p id = "box1-heading">Slim Shopping</p>
+			<p id = "box1-para">Web Application</p>
+			<hr class = "line1">
+			</div>
+		</div>
+
+
+	<div id = "sixth">
+			<div id = "box6-back">
+			<img id = "box6" src="assets/images/group-2.png" alt = "Image not available" srcset="img/group-2@2x.png 2x,img/group-2@3x.png 3x">
+			<p id = "box1-heading">Carepacks<span style = "color:white">P</span>for<span style = "color:white">P</span>heroes</p>
+			<p id = "box1-para">Web Application</p>
+			<hr class = "line1">
+			</div>
+		</div>
+
+	<div id = "seventh">
+			<div id = "box7-back">
+			<img  id = "box7" src="assets/images/group-1.png" alt = "Image n0t avialble" srcset="img/group-1@2x.png 2x,img/group-1@3x.png 3x">
+			<p id = "box1-heading">Slim Shopping</p>
+			<p id = "box1-para">Web Application</p>
+			<hr class = "line1">
+			</div>
+		</div>
+
+
+<	<div id = "eigth">
+			<div id = "box8-back">
+			<img id = "box6" src="assets/images/02.png" alt = "Image not available" srcset="img/02@2x.png 2x,img/02@3x.png 3x">
+			<p class = "box4-heading" id = "box1-heading">Ihomepal</p>
+			<p id = "box1-para">iOS</p>
+			<hr class = "line1">
+			</div>
+		</div>
+
+
+	<div id = "ninth">
+			<div id = "box9-back">
+			<img id = "box9" src="assets/images/macbook-air.png" alt = "Image not found" srcset="img/macbook-air@2x.png 2x,img/macbook-air@3x.png 3x">
+			<p id = "box1-heading">Carepacks<span style = "color:white">P</span>for<span style = "color:white">P</span>heroes</p>
+			<p id = "box1-para">Web Application</p>
+			<hr class = "line1">
+			</div>
+		</div>
+	<button class = "send-msg" id =  "view-more" >VIEW MORE</button>
+	<div id = "second-part">
+	<p id = "tell-us">Tell Us About Your Project</p>
+	<p id = "first-para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since. Lorem Ipsum has been the industry. Lorem Ipsum is simply dummy text of the printing and industry.</p>
+	</div>
+	<div id = "third-part" class= "container">
+	  <form>
+		<div class= "form-group">
+		  <input type="text" class="form-control" id="name" value = "Akshay Bukka">
+		</div>
+		 <div class= "form-group">
+		  <input type="text" class="form-control" id="youremail" value = "Your mail">
+		</div>
+		<div class= "form-group">
+		  <input type="text" class="form-control" id="about" value = "Tell Us About Yourself">
+		</div>
+		 <div class= "form-group">
+		  <input type="text" class="form-control" id="describe" value = "Describe Your Project">
+		</div>
+		<button class =  "send-msg" >SEND MESSAGE</button>
+		 </form>
+	</div>
+	
+	<div class = "fifth-part">
+		<img  class="Logo" src="assets/images/logowhite.png" >
+		<img class="Bg" src="assets/imagesbg.png">
+		<p id = "p2">At Digiapt, we take this breathtaking changing landscape as a challenge and continually invest in mastering modern technology offerings
+		 to harness improved efficiencies.</p>
+		 <p id="Newsletter">Newsletter</p>
+		 <p id="p3">Subscribe our newsletter gor get notification about new updates, information discount, etc.</p>
+		 <ul id = "fifth-list">
+			 <li id="li1">Home</li>
+			 <li>Services</li>
+			 <li>Portfolio</li>
+			 <li>About<span style = "color:#303030">P</span>us</li> 
+			 <li>Blog</li>
+		</ul>
+		<p id="p4">Email</p>
+		<img class="Btn-bg" src="assets/images/btn-bg.png">
+		<p id="p5" style = "text-align:center">Subscribe</p>	
+		<p id="p6">Follow Us</p> 
+		<img id="i1" src="assets/images/fb.jpg">
+		<img id="i2" src="assets/images/insta.jpg"> 
+		<img id="i3" src="assets/images/tweet.jpg">
+		<p id="p7">Copyright © 2009-2017. Digiapt</p>	 
+	</div>
+
+</body>
+</html>
